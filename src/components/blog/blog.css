@@ -1,0 +1,24 @@
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.skill-bar {
+  width: 100%;
+}
+
+.progress-bg {
+  background: #1f2937;
+  /* dark gray background */
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-fill {
+  height: 10px;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  /* cyan to blue */
+  border-radius: 10px;
+  transition: width 1.5s ease-in-out;
+}
